@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "description": "Replace this file with your layer files",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.1013.0"
+  },
+  "devDependencies": {},
+  "name": "nodejs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

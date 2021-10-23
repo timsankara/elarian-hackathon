@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/fetchCounties2",
+      "lambdaFunction": "fetchCounties",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/fetchCounties2"
+    }
+  ],
+  "resourceName": "fetchCounties2",
+  "apiName": "fetchCounties2",
+  "functionArns": [
+    {
+      "lambdaFunction": "fetchCounties"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-hackathon-dev-135410-authRole",
+    "unAuthRoleName": "amplify-hackathon-dev-135410-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "fetchCounties",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

@@ -10,6 +10,22 @@
       "StackName": "amplify-hackathon-dev-135410",
       "StackId": "arn:aws:cloudformation:us-west-1:821149862121:stack/amplify-hackathon-dev-135410/9278e6c0-33ef-11ec-8a0e-02f7ec2d90ad",
       "AmplifyAppId": "divi2df155m2s"
+    },
+    "categories": {
+      "function": {
+        "fetchCounties": {
+          "deploymentBucketName": "amplify-hackathon-dev-135410-deployment",
+          "s3Key": "amplify-builds/fetchCounties-34376b6f323570627037-build.zip"
+        },
+        "hackathoncountyLayer": {
+          "deploymentBucketName": "amplify-hackathon-dev-135410-deployment",
+          "s3Key": "amplify-builds/hackathoncountyLayer-LambdaLayerVersion43fddebd-build.zip"
+        },
+        "hackathonmainLayer": {
+          "deploymentBucketName": "amplify-hackathon-dev-135410-deployment",
+          "s3Key": "amplify-builds/hackathonmainLayer-LambdaLayerVersion2b25861f-build.zip"
+        }
+      }
     }
   }
 }
